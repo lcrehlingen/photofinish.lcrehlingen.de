@@ -34,7 +34,7 @@
     "ipx": "^3.0.1",
     "prisma": "^5.21.1",
     "rxjs": "^7.8.1",
-    "socket.io": "^4.8.0",
+    "socket.io": "^4.8.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
