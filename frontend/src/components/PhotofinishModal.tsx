@@ -1,4 +1,4 @@
-import { IPX_URL, PHOTOFINISH_API_URL } from "@/config";
+import { IPX_URL } from "@/config";
 import { Image as ImageType } from "@/types";
 import { Image } from "@unpic/react";
 import ReactModal from "react-modal";
