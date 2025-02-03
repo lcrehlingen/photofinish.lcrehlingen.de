@@ -16,7 +16,7 @@ importers:
         version: 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/event-emitter':
         specifier: ^3.0.0
-        version: 3.0.0(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))
+        version: 3.0.0(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)
       '@nestjs/mapped-types':
         specifier: '*'
         version: 2.0.5(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(reflect-metadata@0.1.14)
@@ -24,17 +24,17 @@ importers:
         specifier: ^11.0.6
         version: 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)
       '@nestjs/platform-socket.io':
-        specifier: ^11.0.6
-        version: 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/websockets@11.0.6)(rxjs@7.8.1)
+        specifier: ^11.0.7
+        version: 11.0.7(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/websockets@11.0.6)(rxjs@7.8.1)
       '@nestjs/serve-static':
         specifier: ^5.0.1
-        version: 5.0.1(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@5.0.1)
+        version: 5.0.1(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(express@5.0.1)
       '@nestjs/swagger':
         specifier: ^11.0.3
-        version: 11.0.3(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(reflect-metadata@0.1.14)
+        version: 11.0.3(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(class-transformer@0.5.1)(reflect-metadata@0.1.14)
       '@nestjs/websockets':
         specifier: ^11.0.6
-        version: 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+        version: 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.7)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@prisma/client':
         specifier: ^6.3.0
         version: 6.3.0(prisma@6.3.0(typescript@5.7.3))(typescript@5.7.3)
@@ -555,8 +555,8 @@ packages:
       '@nestjs/common': ^11.0.0
       '@nestjs/core': ^11.0.0
 
-  '@nestjs/platform-socket.io@11.0.6':
-    resolution: {integrity: sha512-80r6hp0p+YK/+D5srjPTE/fc1w0aTM6ecqprJr8bFlzTPJbtYtpfHqMbEg0UfRKTsZ0krEgpv8fb0K4dSYzW0w==}
+  '@nestjs/platform-socket.io@11.0.7':
+    resolution: {integrity: sha512-g1j/Uu16w00JtYB00LInELaTkTQBFz93uKvsXGBk2oe27SQv+8XZTqrs7lYBaAjyBsxozQ+PY2Fv+u51yAew9g==}
     peerDependencies:
       '@nestjs/common': ^11.0.0
       '@nestjs/websockets': ^11.0.0
@@ -3202,9 +3202,9 @@ snapshots:
       uid: 2.0.2
     optionalDependencies:
       '@nestjs/platform-express': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)
-      '@nestjs/websockets': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/websockets': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.7)(reflect-metadata@0.1.14)(rxjs@7.8.1)
 
-  '@nestjs/event-emitter@3.0.0(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))':
+  '@nestjs/event-emitter@3.0.0(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)':
     dependencies:
       '@nestjs/common': 11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/core': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3236,10 +3236,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nestjs/platform-socket.io@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/websockets@11.0.6)(rxjs@7.8.1)':
+  '@nestjs/platform-socket.io@11.0.7(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/websockets@11.0.6)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/websockets': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/websockets': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.7)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       rxjs: 7.8.1
       socket.io: 4.8.1
       tslib: 2.8.1
@@ -3259,7 +3259,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@nestjs/serve-static@5.0.1(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@5.0.1)':
+  '@nestjs/serve-static@5.0.1(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(express@5.0.1)':
     dependencies:
       '@nestjs/common': 11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/core': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3267,7 +3267,7 @@ snapshots:
     optionalDependencies:
       express: 5.0.1
 
-  '@nestjs/swagger@11.0.3(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(reflect-metadata@0.1.14)':
+  '@nestjs/swagger@11.0.3(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(class-transformer@0.5.1)(reflect-metadata@0.1.14)':
     dependencies:
       '@microsoft/tsdoc': 0.15.0
       '@nestjs/common': 11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3281,7 +3281,7 @@ snapshots:
     optionalDependencies:
       class-transformer: 0.5.1
 
-  '@nestjs/websockets@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)':
+  '@nestjs/websockets@11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.0.6)(@nestjs/platform-socket.io@11.0.7)(reflect-metadata@0.1.14)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/core': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@11.0.6)(@nestjs/websockets@11.0.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3291,7 +3291,7 @@ snapshots:
       rxjs: 7.8.1
       tslib: 2.8.1
     optionalDependencies:
-      '@nestjs/platform-socket.io': 11.0.6(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/websockets@11.0.6)(rxjs@7.8.1)
+      '@nestjs/platform-socket.io': 11.0.7(@nestjs/common@11.0.6(class-transformer@0.5.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/websockets@11.0.6)(rxjs@7.8.1)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

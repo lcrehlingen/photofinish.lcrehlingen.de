@@ -21,7 +21,7 @@
     "@nestjs/event-emitter": "^3.0.0",
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^11.0.6",
-    "@nestjs/platform-socket.io": "^11.0.6",
+    "@nestjs/platform-socket.io": "^11.0.7",
     "@nestjs/serve-static": "^5.0.1",
     "@nestjs/swagger": "^11.0.3",
     "@nestjs/websockets": "^11.0.6",
