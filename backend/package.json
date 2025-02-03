@@ -16,7 +16,7 @@
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
   },
   "dependencies": {
-    "@nestjs/common": "^11.0.6",
+    "@nestjs/common": "^11.0.7",
     "@nestjs/core": "^11.0.6",
     "@nestjs/event-emitter": "^3.0.0",
     "@nestjs/mapped-types": "*",
