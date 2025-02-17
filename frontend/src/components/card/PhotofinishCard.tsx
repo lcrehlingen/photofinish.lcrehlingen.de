@@ -27,7 +27,7 @@ export default function PhotofinishCard({ image }: { image: ImageType }) {
               : "-"}
           </span>
         </div>
-        <h3 className="font-wa-headline text-xl">{image.title}</h3>
+        <h3 className="font-[wa-headline] text-xl">{image.title}</h3>
       </div>
     </ImageCard>
   );

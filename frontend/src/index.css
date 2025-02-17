@@ -1,3 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-tourLightOrange: #FFA500;
+    --color-tourDarkBlue: #293847;
+    --color-tourOrange: #fa4517;
+    --color-tourRed: #d12630;
+}

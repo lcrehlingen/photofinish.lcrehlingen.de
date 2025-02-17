@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex justify-between">
           <Link
             to="/"
-            className="self-center whitespace-nowrap font-wa-headline text-xl font-semibold"
+            className="self-center whitespace-nowrap font-[wa-headline] text-xl font-semibold"
           >
             Photofinish
           </Link>

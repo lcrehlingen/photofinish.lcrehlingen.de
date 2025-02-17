@@ -9,7 +9,7 @@ export default function Title({
 }) {
   return (
     <h1
-      className={`font-wa-headline text-5xl font-extrabold ${
+      className={`font-[wa-headline] text-5xl font-extrabold ${
         center ? `text-center` : `text-left`
       } leading-tight tracking-tight text-tourLightOrange`}
     >

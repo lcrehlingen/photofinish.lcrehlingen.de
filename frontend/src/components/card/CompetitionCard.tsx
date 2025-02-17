@@ -29,7 +29,7 @@ export default function CompetitionCard({ id, date, name, location }: Event) {
               })} - { location}
             </span>
           </div>
-          <h3 className="font-wa-headline text-xl">{name}</h3>
+          <h3 className="font-[wa-headline] text-xl">{name}</h3>
         </div>
       </ImageCard>
     </Link>

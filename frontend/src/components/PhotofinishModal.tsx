@@ -27,7 +27,7 @@ export default function PhotofinishModal({
             />
           </div>
           <div className="flex flex-col gap-2 lg:w-1/3">
-            <h3 className="font-wa-headline text-xl text-center">
+            <h3 className="font-[wa-headline] text-xl text-center">
               {`${image.title}`}
             </h3>
             {image.windSpeed && (

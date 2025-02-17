@@ -15,7 +15,7 @@ export default function App() {
   const iframe = searchParams.has("iframe");
   return (
     <div
-      className={`flex min-h-screen flex-col font-wa-regular ${
+      className={`flex min-h-screen flex-col font-[wa-regular] ${
         iframe ? "bg-transparent" : "bg-tourDarkBlue"
       }`}
     >
@@ -35,7 +35,7 @@ export const Catch = () => {
   if (!isRouteErrorResponse(error))
     return (
       <div
-        className={`flex min-h-screen flex-col font-wa-regular ${
+        className={`flex min-h-screen flex-col font-[wa-regular] ${
           iframe ? "bg-transparent" : "bg-tourDarkBlue"
         }`}
       >
@@ -54,7 +54,7 @@ export const Catch = () => {
     );
   return (
     <div
-      className={`flex min-h-screen flex-col font-wa-regular ${
+      className={`flex min-h-screen flex-col font-[wa-regular] ${
         iframe ? "bg-transparent" : "bg-tourDarkBlue"
       }`}
     >
