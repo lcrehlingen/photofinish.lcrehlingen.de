@@ -11,8 +11,8 @@ export default function PhotofinishCard({ image }: { image: ImageType }) {
           cdn="ipx"
           src={`${IPX_URL}/${image.eventId}/${image.filename}`}
           alt={image.title}
-          width={image.width}
-          height={image.height}
+          width={image.width / 4}
+          height={image.height / 4}
         />
       }
     >

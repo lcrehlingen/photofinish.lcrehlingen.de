@@ -20,8 +20,8 @@ export default function PhotofinishModal({
             <Image
               cdn="ipx"
               src={`${IPX_URL}/${eventId}/${image.filename}`}
-              width={image.width}
-              height={image.height}
+              width={image.width / 2}
+              height={image.height / 2}
               alt={image.title}
               className="w-full rounded-t-md"
             />

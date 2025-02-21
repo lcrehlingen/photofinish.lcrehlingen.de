@@ -14,8 +14,8 @@ export default function CompetitionCard({ id, date, name, location }: Event) {
             cdn="ipx"
             src={`${IPX_URL}/${id}/thumbnail.jpg`}
             alt={name}
-            height={1080}
-            width={1920}
+            height={1080 / 2}
+            width={1920 / 2}
           />
         }
       >
