@@ -44,7 +44,7 @@ export async function parseIptcFromFile(file: string): Promise<Image | null> {
   const windSpeed = getWindSpeedFromCaption(parsedCaption);
   const athletes = getAthletesFromCaption(parsedCaption);
   const event = getEventFromTitle(title);
-  const { width, height } = sizeOf(file);
+  const { width, height } = sizeOf(data);
   return {
     lastModified,
     filename: path.parse(file).base,
