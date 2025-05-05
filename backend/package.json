@@ -25,7 +25,7 @@
     "@nestjs/serve-static": "^5.0.3",
     "@nestjs/swagger": "^11.1.5",
     "@nestjs/websockets": "^11.1.0",
-    "@prisma/client": "^6.6.0",
+    "@prisma/client": "^6.7.0",
     "chokidar": "^4.0.3",
     "class-transformer": "^0.5.1",
     "csvtojson": "^2.0.10",
